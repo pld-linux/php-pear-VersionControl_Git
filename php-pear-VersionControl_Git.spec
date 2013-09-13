@@ -5,7 +5,7 @@ Summary:	%{pearname} - Provides OO interface to handle Git repository
 Name:		php-pear-VersionControl_Git
 Version:	0.4.4
 Release:	1
-License:	Apache License
+License:	Apache
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
 # Source0-md5:	0d9baf13679edf1cdb7beea6397ac81e
@@ -14,15 +14,15 @@ BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
+Requires:	git-core
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 VersionControl_Git is a library that provides OO interface to handle
-Git repository.
-  You can use Git command via the wrapper class. Some features are
-provided by high-featured interface.
+Git repository. You can use Git command via the wrapper class. Some
+features are provided by high-featured interface.
 
 In PEAR status of this package is: %{status}.
 
