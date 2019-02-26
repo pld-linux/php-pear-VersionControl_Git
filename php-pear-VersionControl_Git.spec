@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Provides OO interface to handle Git repository
 Name:		php-pear-VersionControl_Git
-Version:	0.4.4
+Version:	0.5.0
 Release:	1
 License:	Apache
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
-# Source0-md5:	0d9baf13679edf1cdb7beea6397ac81e
+# Source0-md5:	67c6ca435359e2eeba75a093801ca6af
 URL:		http://pear.php.net/package/VersionControl_Git/
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
