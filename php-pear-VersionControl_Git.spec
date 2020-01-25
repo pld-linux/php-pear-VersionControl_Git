@@ -1,6 +1,5 @@
 %define		status		alpha
 %define		pearname	VersionControl_Git
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Provides OO interface to handle Git repository
 Name:		php-pear-VersionControl_Git
 Version:	0.5.0
